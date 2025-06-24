@@ -8,8 +8,8 @@ from src.train import split_data, train_model, predict_and_evaluate
 from tensorflow.keras.utils import plot_model
 
 # Rutas de tus datos
-data_path = '/Users/germanencinas/Documents/Master UAX/TFM/codigo_modular/data/signal_samples.npy'
-labels_path = '/Users/germanencinas/Documents/Master UAX/TFM/codigo_modular/data/is_sz.npy'
+data_path = '/data/signal_samples.npy'
+labels_path = '/data/is_sz.npy'
 
 # Carga de datos
 X, y = load_data(data_path, labels_path)
