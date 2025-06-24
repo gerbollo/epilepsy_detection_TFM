@@ -15,8 +15,8 @@ Búsqueda de hiperparámetros para un modelo CNN-LSTM en EEG,
 mediante Keras Tuner.
 """
 # IMPORTACIÓN DE DATOS
-data_path = '/Users/germanencinas/Documents/Master UAX/TFM/data_CHB_mit/signal_samples.npy'
-data_path_labels = '/Users/germanencinas/Documents/Master UAX/TFM/data_CHB_mit/is_sz.npy'
+data_path = '/data_CHB_mit/signal_samples.npy'
+data_path_labels = '/data_CHB_mit/is_sz.npy'
 
 # Cargar señales y etiquetas
 X = np.load(data_path)  # (n, 18, 2048)
